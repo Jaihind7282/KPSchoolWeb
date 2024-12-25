@@ -21,7 +21,7 @@ const ContactUs = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://kpschoolweb.onrender.com/submit", {
+      const response = await fetch("https://kpschoolbackend.onrender.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
