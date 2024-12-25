@@ -34,7 +34,7 @@ const StudentRegistrationForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://kpschoolweb.onrender.com/submit-form",
+        "https://kpschoolbackend.onrender.com/submit-form",
         formData
       );
       setReceipt(response.data.data);
